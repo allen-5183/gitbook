@@ -1,0 +1,59 @@
+{
+  "title": "GitBook 電子書",
+  "description": "GitBook 製作說明！",
+  "isbn": "978-3-16-148410-0",
+  "language": "zh-tw",
+  "direction": "ltr",
+
+  "plugins": [
+               "disqus",
+               "quiz",
+               "quizzes",
+               "exercises",
+	       "expandable-chapters",
+	       "collapsible-menu"
+             ],
+
+  "pluginsConfig": {
+                     "disqus": {
+                                 "shortName": "gitbook-doc",
+                                 "useIdentifier": false
+                               },
+
+                     "expandable-chapters":{},
+
+		     "quiz": {
+                                "labels": {
+                                            "check"             : "確認",
+                                            "showExplanation"   : "顯示解釋", 
+                                            "showCorrect"       : "顯示正確答案",   
+                                            "explanationHeader" : "Explanation"
+                                         },
+                                "text":  {
+                                            "noChosen"    : "Choose at least one answer",  
+                                            "incomplete"  : "Some correct answers are missing" 
+                                         },
+                               "buttons": {
+                                            "showCorrect"       : true, 
+                                            "showExplanation"   : true 
+                                          }
+                             }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                   }
+}
